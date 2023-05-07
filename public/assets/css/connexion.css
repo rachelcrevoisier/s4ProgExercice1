@@ -1,0 +1,78 @@
+/* .connexion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:20px;
+    justify-content: center;
+    gap:30px;
+    padding: 10px;
+    width: 50%;
+   
+} */
+.inscription{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+   
+    
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    width: 60%;
+    gap: 20px;
+    
+}
+.inscription input::placeholder {
+    color: var(--colorBleu);
+    opacity: 1;
+}
+.inscription input {
+    border: hidden;
+    border-bottom: 2px solid var(--colorClair);
+    font-size: 16px;
+    padding:7px;
+}
+
+.inscription input:focus {
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid var(--colorClair);
+}
+/* fenêtres modales 
+   ================ */
+
+dialog {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 8px #777;
+    align-items: center;
+}
+dialog form{
+    width: 80%;
+    gap:10px;
+}
+
+dialog::backdrop {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+#modaleConnexion section {
+    padding: 10px 20px;
+}
+
+#modaleConnexion h1 {
+    margin: 20px 0 0 0;
+    text-align: center;
+    font-size: 24px;
+    color: #777;
+}
+
+#modaleConnexion span {
+    width: 400px;
+    text-align: center;
+}
